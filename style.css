@@ -5,6 +5,10 @@
   --rose: #ebbcba;
   --pine: #31748f;
   --foam: #9ccfd8;
+  --love: #eb6f92;
+  --subtle: #908caa;
+  --gold: #f6c177;
+  --iris: #c4a7e7;
 }
 
 * {
@@ -34,4 +38,53 @@ body {
 
 .header {
   font-size: 30px;
+  font-weight: lighter;
+}
+
+.content {
+  display: flex;
+}
+
+.calculator {
+  width: 300px;
+  height: 300px;
+  background-color: var(--overlay);
+  border-style: solid;
+  border-color: var(--subtle);
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.screen {
+  background-color: var(--gold);
+  color: var(--subtle);
+  margin: 18px 15px;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: right;
+  flex: 0 1;
+}
+
+.buttons {
+  flex: 1 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 13px 15px;
+  padding: 2px;
+  border-radius: 8px;
+  text-align: right;
+  .buttons-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  button {
+    border-style: solid;
+    border-color: var(--subtle);
+    background-color: var(--subtle);
+    border-radius: 8px;
+  }
 }

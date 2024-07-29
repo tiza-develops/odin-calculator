@@ -4,4 +4,4 @@ let car = {
 	color: "orange",
 };
 
-alert(car);
+console.log(car);

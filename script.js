@@ -7,4 +7,4 @@
  5. Print out the result.
  */
 
-
+document.querySelector(".screen").textContent="0";

@@ -7,4 +7,6 @@
  5. Print out the result.
  */
 
-document.querySelector(".screen").textContent="0";
+const RESULTS = document.querySelector(".screen");
+RESULTS.textContent="0";
+

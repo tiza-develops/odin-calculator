@@ -6,3 +6,14 @@
  4. Perform the operation between the two numbers.
  5. Print out the result.
  */
+let buttons = document.querySelectorAll("button");
+
+function putNumber() {
+  let results = document.querySelector(".screen");
+  results.innerHTML ="1";
+}
+
+buttons.forEach( button => {
+    button.addEventListener('click',putNumber);
+  }
+);

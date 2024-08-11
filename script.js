@@ -1,14 +1,23 @@
-let buttons = document.querySelectorAll("button");
+/*
+  function 1
+  input: button click (event)
+  output: screen innerHTML
+*/
 
-buttons.forEach( button => {
-    button.addEventListener('click',
-    function(event) {
-      if (element.classlist.contains())
-      let results = document.querySelector(".screen")
-      results.innerHTML += event.target.innerHTML;
-    }
-    );
-  }
-);
+/*
+  function 2
+  input: button click (event)
+  output: object
+*/
 
+/*
+  function 3
+  input: function 2's object
+  output: number
+*/
 
+/*
+  function 4
+  input: number
+  output: screen HTML
+*/
